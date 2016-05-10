@@ -1,10 +1,11 @@
-def dodawanie():
-	a= int(input())
-	b= int(input())
-	print(a+b)
-	
+def dodawanie(a, b):
+	return a+b 
+
 def get_into():
-	print("To jest prosty kalkulator")
+	print("To jest prosty kalkulator")	
 	
 get_info()	
-dodawanie()
+	
+a= int(input())
+b= int(input())
+print(dodawanie(a, b))
